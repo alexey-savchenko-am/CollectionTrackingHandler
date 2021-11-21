@@ -5,7 +5,7 @@ An extension method for a collection that allows the elements of that collection
 
 # Usage
 
-```sh
+```csharp
 using CollectionTrackingHandler;
 
 var list = new List<string>{...};
