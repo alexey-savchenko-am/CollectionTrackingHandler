@@ -6,9 +6,9 @@
 	using System.Threading;
 	using System.Threading.Tasks;
 
-	public class CollectionExtensions
+	public static class CollectionExtensions
     {
-		public static async Task<TOut[]> HandleItemsInParallel<T, TOut>(ICollection<T> collection,
+		public static async Task<TOut[]> HandleItemsInParallel<T, TOut>(this ICollection<T> collection,
 					Func<T, Task<TOut>> itemProcessor,
 					Func<int, int, TimeSpan, Task> onProgress = null,
 					byte maxThreadCount = 10)
