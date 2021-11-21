@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Alexey Savchenko</Authors>
+    <Description>An extension method for a collection that allows the elements of that collection to be processed in parallel with a limited number of threads and ability to track progress.</Description>
+    <Copyright>Alexey Savchenko</Copyright>
+    <PackageLicenseFile>LICENCE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/goOrn/CollectionTrackingHandler</PackageProjectUrl>
+    <PackageTags>netcore collection parallel handler</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENCE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
