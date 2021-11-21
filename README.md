@@ -13,6 +13,7 @@ var list = new List<string>{...};
 Func<string, Task<string>> itemProcessor 
 	= async i => 
 	{ 
+		// imitate long-running operation
 		await Task.Delay(new Random().Next(1000, 10_000));
 		return i; 
 	};
