@@ -23,6 +23,6 @@ Func<int, int, TimeSpan, Task> displayProgress
 		Console.WriteLine($"{completedTaskCount}/{commonTaskCount} within {timeEllapsed.Seconds} sec.");
 	};
 
-var result = await list.HandleItemsInParallel(itemProcessor, displayProgress);
+var result = await list.HandleItemsInParallel(itemProcessor, displayProgress, maxThreadCount: 10);
 
 ```
