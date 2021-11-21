@@ -1,5 +1,5 @@
 # CollectionTrackingHandler
-An extension method for a collection that allows the elements of that collection to be processed in parallel with a limited number of threads. Also it allows to track progress.
+An extension method for a collection that allows the elements of that collection to be processed in parallel with a limited number of threads and with ability to track progress.
 
 [![NuGet version (CollectionTrackingHandler)](https://img.shields.io/nuget/vpre/CollectionTrackingHandler?color=orange&label=nuget%20package)](https://www.nuget.org/packages/CollectionTrackingHandler/1.0.0.1)
 
