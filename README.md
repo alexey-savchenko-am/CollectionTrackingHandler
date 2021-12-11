@@ -8,6 +8,7 @@ An extension method for a collection that allows the elements of that collection
 ```csharp
 using CollectionTrackingHandler;
 
+
 var list = new List<string>{...};
 
 Func<string, Task<string>> itemProcessor 
